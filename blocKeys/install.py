@@ -24,6 +24,7 @@ def _onMayaDropped():
 
 
     command = '''
+import maya.cmds as cmds
 import os
 
 script_dir = cmds.internalVar(userScriptDir=True)
